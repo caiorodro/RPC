@@ -14,7 +14,7 @@ class timeService(rpyc.Service):
 
     def exposed_doTime(self, seconds=int, timeoutSecs=int):
         """
-        This function sends seconds and timeout to server waits and return
+        This function receives seconds and timeout to perform a while and return a message string
 
         Parameters:
             seconds: You have to fill with Seconds (not miliseconds)
